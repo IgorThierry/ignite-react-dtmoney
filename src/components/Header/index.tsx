@@ -1,16 +1,20 @@
-import React from "react";
-
 import { Container, Content } from "./styles";
 
 import logoImg from "../../assets/logo.svg";
 
-export const Header: React.FC = () => {
+interface HeaderProps {
+  onOpenNewTransactionModal: () => void;
+}
+
+export function Header({ onOpenNewTransactionModal }: HeaderProps) {
   return (
     <Container>
       <Content>
         <img src={logoImg} alt="Rocketseat dt money" />
-        <button type="button">nova transação</button>
+        <button type="button" onClick={onOpenNewTransactionModal}>
+          nova transação
+        </button>
       </Content>
     </Container>
   );
-};
+}
