@@ -1,3 +1,9 @@
+# dt money
+
+## Sobre o dt money
+
+O dt money é uma aplicação web feita para gerenciar suas finanças, permitindo o cadastro de entradas, saídas e a organização das mesmas em categorias.
+
 <p align="center">
   <img src=".github/cover.PNG" alt="Página inicial">
 </p>
